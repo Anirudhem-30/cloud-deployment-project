@@ -40,6 +40,6 @@ pm2 start app.js --name "manhwa-app" --watch
 ## Accessing the Application
 The application will be available at:
 ```bash
-http://:3000](http://18.232.89.200:3000/
+http://18.232.89.200:3000/
 ```
 
