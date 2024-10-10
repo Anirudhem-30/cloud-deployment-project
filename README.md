@@ -25,3 +25,21 @@ Clone this repository to your local machine using:
 ```bash
 git clone https://github.com/Anirudhem-30/cloud-deployment-project.git
 cd cloud-deployment-project
+```
+## Installing Dependencies
+Navigate to the project directory and install the required dependencies:
+```bash
+cd manhwa-app
+npm install
+```
+## Running the Application
+You can start the application using PM2 for process management. This ensures that the app will continue running even after you close the terminal:
+```bash
+pm2 start app.js --name "manhwa-app" --watch
+```
+## Accessing the Application
+The application will be available at:
+```bash
+http://:3000](http://18.232.89.200:3000/
+```
+
